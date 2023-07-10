@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
            it.onError(IllegalArgumentException("Error in Observable"))
            it.onNext("Two")
            it.onComplete()
+           ///init
        }
 
         observable.subscribe(object: Observer<String>{
